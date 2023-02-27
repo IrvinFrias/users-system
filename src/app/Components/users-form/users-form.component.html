@@ -1,0 +1,54 @@
+<div class="col-12 p-4">
+  <h2 class="mb-4">Registrar Usuario</h2>
+  <form [formGroup] ="userForm" (ngSubmit)="Submit()">
+    <div class="d-flex flex-column flex-wrap my-2">
+      <label class="mb-2" for="first-name">First Name</label>
+      <input class="p-1" id="first-name" type="text" name="firstname" formControlName="firstname">
+    </div>
+    <p class="mb-2 alert alert-danger rounded-0 py-1"
+       *ngIf="userForm.get('firstname')?. touched && userForm.get('firstname')?.errors?.['required'] ">This field is
+    required</p>
+    <p class="mb-2 alert alert-danger rounded-0 py-1"
+       *ngIf="userForm.get('firstname')?. touched && userForm.get('firstname')?.errors?.['minlength'] ">Name must
+      be at least 4 character long</p>
+    <p class="mb-2 alert alert-danger rounded-0 py-1"
+       *ngIf="userForm.get('firstname')?. touched && userForm.get('firstname')?.errors?.['forbiddenName'] ">
+      the name must not be 1234</p>
+
+
+    <div class="d-flex flex-column flex-wrap my-2">
+      <label class="mb-2" for="last-name">Last Name</label>
+      <input class="p-1" id="last-name" type="text" name="lastname" formControlName="lastname" >
+    </div>
+    <p class="mb-2 alert alert-danger rounded-0 py-1"
+       *ngIf="userForm.get('lastname')?. touched && userForm.get('lastname')?.errors?.['required'] ">This field is
+      required</p>
+
+
+    <div class="d-flex flex-column flex-wrap my-2">
+      <label class="mb-2" for="email">Email</label>
+      <input class="p-1" id="email" type="text" name="email" formControlName="email" >
+    </div>
+    <p class="mb-2 alert alert-danger rounded-0 py-1"
+       *ngIf="userForm.get('email')?. touched && userForm.get('email')?.errors?.['required'] ">Error
+      message</p>
+
+
+    <div class="d-flex flex-column flex-wrap my-2">
+      <label class="mb-2" for="phone">Phone number</label>
+      <input class="p-1" id="phone" type="text" name="phone" formControlName="phone">
+    </div>
+    <p class="mb-2 alert alert-danger rounded-0 py-1"
+       *ngIf="userForm.get('phone')?. touched && userForm.get('phone')?.errors?.['required'] ">Error
+      message</p>
+    <p class="mb-2 alert alert-danger rounded-0 py-1"
+       *ngIf="userForm.get('phone')?. touched && userForm.get('phone')?.errors?.['']">Error
+      message min lenght</p>
+    <P *ngIf="statusForm === 'INVALID'" class="alert alert-danger rounded-0 py-1">Please check the fields before
+      send</P>
+
+    <input class="btn btn-dark rounded-0 col-3 my-2" type="submit">
+
+
+  </form>
+</div>

@@ -1,1 +1,105 @@
-/* You can add global styles to this file, and also import other style files */
+/**{margin: 0;padding: 0;}*/
+/*table{margin: 0}*/
+/*!*display*!*/
+/*.d-block{*/
+/*  display: block;*/
+/*}*/
+/*!*text property's*!*/
+/*.text-warning{color: #ffc103;}*/
+/*.text-dark{color: #131313;}*/
+/*.text-white{color: white;}*/
+/*!*bg property's*!*/
+/*.bg-dark{background-color: #131313;}*/
+/*.bg-redish{background-color: rgba(255, 6, 6, 0.29)}*/
+/*.bg-white{background-color: white}*/
+/*!*Layout property's*!*/
+/*.container{width: 90%}*/
+/*!*Columns*!*/
+/*.col-1{width: calc(100% / 12)}*/
+/*.col-2{width: calc(100% / 6)}*/
+/*.col-3{width: calc(100% / 4)}*/
+/*.col-4{width: calc(100% / 3)}*/
+/*.col-5{width: calc(100% / (12 / 5))}*/
+/*.col-6{width: calc(100% / 2)}*/
+/*.col-7{width: calc(100% / (12 / 7))}*/
+/*.col-8{width: calc(100% / (12 / 8))}*/
+/*.col-9{width: calc(100% / (12 / 9))}*/
+/*.col-10{width: calc(100% / (12 / 10))}*/
+/*.col-11{width: calc(100% / (12 / 11))}*/
+/*.col-12{width: 100%}*/
+/*!*padding property's*!*/
+/*.ps-2{padding: 0 0 0 2rem}*/
+/*.pe-2{padding: 0 2rem  0 0}*/
+/*.px-2{padding: 0 2rem}*/
+/*.py-05{padding: 0.5rem 0}*/
+/*.py-1{padding: 1rem 0}*/
+/*.py-2{padding: 2rem 0}*/
+/*.px{ margin: auto}*/
+/*.px-05{padding: 0 0.5rem}*/
+/*.px-1{padding: 0 1rem}*/
+/*.p-05{padding: 0.5rem}*/
+/*.p-1{padding: 1rem}*/
+/*.p-2{padding: 2rem}*/
+/*.p-3{padding: 3rem}*/
+/*!*Margins property's*!*/
+/*.ms-2{margin: 0 0 0 2rem}*/
+/*.me-2{margin: 0 2rem 0 0}*/
+/*.mt-05{margin: 0.5rem 0 0 0}*/
+/*.mt-1{margin: 1rem 0 0 0}*/
+/*.mt-2{margin: 2rem 0 0 0}*/
+/*.mt-3{margin-top: 3rem}*/
+/*.mb-05{margin: 0 0 0.5rem 0}*/
+/*.mx-auto{margin-inline: auto}*/
+/*.my-auto{margin: auto 0}*/
+/*.m-auto{margin: auto}*/
+/*!* Flexbox library*!*/
+/*.d-flex{display: flex}*/
+/*.flex-colum{flex-direction: column}*/
+/*.flex-row{flex-direction: row}*/
+/*.wrap{flex-wrap: wrap}*/
+/*.wrap-reverse{flex-wrap: wrap-reverse}*/
+/*.wrap-nowrap{flex-wrap: nowrap}*/
+/*.justify-center{justify-content: center}*/
+/*.justify-between{justify-content: space-between}*/
+/*.justify-around{justify-content: space-around}*/
+/*.align-center{align-items: center}*/
+/*.align-start{align-items: start}*/
+/*.align-end{align-items: end}*/
+/*!*List styles*!*/
+/*.list-unstyle{list-style: none;}*/
+/*.list-item{padding: 0 0.5rem;cursor: pointer}*/
+/*!*Height*!*/
+/*.h-1{height: 1rem;}*/
+/*.h-2{height: 2rem}*/
+/*.h-3{height: 3rem}*/
+/*.h-4{height: 4rem}*/
+/*.h-5{height: 5rem}*/
+/*.h-6{height: 6rem}*/
+/*!*cursor types*!*/
+/*.pointer{cursor: pointer}*/
+/*!*anchora tags*!*/
+/*.nav-link{text-decoration: none; color: inherit}*/
+/*.nav-link-active{font-weight: bold; opacity: 0.6}*/
+/*!*Text style´s*!*/
+/*.text-bold{font-weight: bold}*/
+/*!*width*!*/
+/*.w-25{width: 25%}*/
+/*.w-50{width: 50%}*/
+/*.w-75{width: 75%}*/
+/*.w-100{width: 100%}*/
+
+/*!*font size*!*/
+/*.fs-09{font-size: 0.9rem}*/
+/*!*font*!*/
+/*:root{font-family: 'Poppins', sans-serif; font-weight: 300;}*/
+
+/*!*border*!*/
+/*.border-colapse{*/
+/*  border-collapse: collapse;*/
+/*}*/
+
+/*!*rounded*!*/
+/*.rounded-5{border-radius: 5px}*/
+
+
+
