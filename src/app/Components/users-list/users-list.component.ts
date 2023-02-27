@@ -17,8 +17,8 @@ export class UsersListComponent implements OnInit{
 
   ngOnInit(): void {
     this.usersService.getUsers$().subscribe(users => {
-      //this.usersList = users;
-       this.localstorage.saveLocalStorage(users);
+      this.usersList = users;
+      this.localstorage.saveLocalStorage(users);
 
     }) //se suscribe al observable y devuelve un array de usuarios
   }
